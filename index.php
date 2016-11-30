@@ -7,7 +7,7 @@
   <script src="http://www.thrashcan.net/includes/jquery-3.1.1.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="http://thrashcan.net/includes/JsBarcode.all.js"></script>
-  <link rel="stylesheet" type="text/css" href="main.css?v=113016a">
+  <link rel="stylesheet" type="text/css" href="main.css?v=113016b">
   <link rel="stylesheet" href="print.css?v=113016a" type="text/css" media="print">
   <title>BOL Generator</title>
 </head>

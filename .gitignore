@@ -3,4 +3,7 @@
 *.csv
 *.pdf
 *.xlsx
+*.css
+*.map
+.sass-cache
 update.sh
