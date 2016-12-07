@@ -1,3 +1,59 @@
+$standardBorder: 2px solid black;
+
 .container {
   padding-top: 15px;
+  width: 100%; //for some reason removing this breaks the printout version
+}
+
+.LRborder {
+  border-left: $standardBorder;
+  border-right: $standardBorder;
+}
+
+.smallest {
+  font-size: 7px;
+}
+
+#addressInfo {
+  border-right: $standardBorder;
+  border-bottom: $standardBorder;
+  border-left: $standardBorder;
+  p {
+    line-height: 1.5em;
+  }
+}
+
+#header {
+  border: $standardBorder;
+}
+
+#orderInfo table tr {
+  height: 20px;
+}
+
+#refnums {
+  border-left: $standardBorder;
+}
+
+#signatures div {
+  border-right: $standardBorder;
+  border-bottom: $standardBorder;
+  min-height: 120px;
+}
+
+#specialInstructions {
+  border-bottom: $standardBorder;
+  min-height: 60px;
+}
+
+small {
+  font-size: 9px;
+}
+
+table
+  th {
+    font-size: 12px;
+  }
+  td {
+    font-size: 10px;
 }
