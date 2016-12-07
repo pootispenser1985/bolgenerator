@@ -3,22 +3,25 @@
 <head>
 </head>
 <?php
+  $bolnum = 5732;
+  $carrier = 'Old  Dominion';
   $class = 125;
-  $date = 0;
+  $date = '12/6/16';
   $nmfc = '63035-00';
-  $pronum = '';
-  $rdon = 0;
+  $pronum = '06312593217';
+  $rdon = '12/10/16';
+  $scac = 'ODFL';
   $shipper = array(
-    'name' => "",
-    'address' => "",
-    'citystatezip' => "",
-    'phone' => ""
+    'name' => "Griffin Technology",
+    'address' => "1706 Heil Quaker Blvd",
+    'citystatezip' => "La Vergne TN, 37086",
+    'phone' => "(615) 399-7000"
   );
   $consignee = array(
-    'name' => "",
-    'address' => "",
-    'citystatezip' => "",
-    'phone' => ""
+    'name' => "Fred's Discount Stores",
+    'address' => "300 Apple Ave",
+    'citystatezip' => "Walla Walla WA, 90654",
+    'phone' => "(555) 555-5555"
   );
 ?>
 <body>
@@ -51,19 +54,19 @@
       </div>
       <div class="col-xs-6" id="refnums">
         <p>
-          Bill of Lading Number: <br>
-          RDON:
+          <b>Bill of Lading Number: </b><?php echo $bolnum; ?><br>
+          <b>RDON: </b><?php echo $rdon; ?>
         </p>
         <p>
-          Carrier Name: <br>
-          Seal Num:
+          <b>Carrier Name:</b> <?php echo $carrier; ?><br>
+          <b>Seal Num: </b>
         </p>
         <p>
-          SCAC: <br>
-          PRO Number: <br><br>
+          <b>SCAC: </b><?php echo $scac; ?><br>
+          <b>PRO Number: </b><?php echo $pronum; ?><br><br>
         </p>
         <p>
-          Freight Charge Terms <br>
+          <b>Freight Charge Terms </b><br>
           Prepaid ___ Collect ___ Third Party ___
         </p>
       </div>
